@@ -99,6 +99,6 @@ BOOL MoveWindow(HWND hWnd, int X, int Y, int nWidth, int nHeight, BOOL bRepaint)
 
 ---
 
-# Reference:
+# Reference
 
 * [learnwin32](https://learn.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows)
