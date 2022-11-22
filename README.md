@@ -30,3 +30,4 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
 - [ ] [Win32 프로그래밍 기초](https://learn.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows)
 - [ ] [DirectX 게임 개발 기초](https://devblogs.microsoft.com/cppblog/directx-game-development-with-c-in-visual-studio/)
 - [ ] [POCU C++ 코딩 표준](https://docs.popekim.com/ko/coding-standards/pocu-cpp)
+- [ ] [C++ Core Guidelines - NL.5: Avoid encoding type information in names](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#nl5-avoid-encoding-type-information-in-names)
