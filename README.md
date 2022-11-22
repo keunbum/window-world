@@ -9,8 +9,8 @@ DirectX 프로그래밍을 하기에 앞서 Win32 프로그래밍 기초를 다�
 Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록해놓을 것.
 
 ## Index
-* ### [Tips](#tips)
-    * #### [Visual Studio](#visual-studio-2)
+* ### [Tips](#tips-1)
+    * #### [Visual Studio](#visual-studio-1)
 * ### [읽어 봐야 할 문서들](#읽어-봐야-할-문서들-1)
 
 
@@ -18,7 +18,7 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
 
 * ### Visual Studio
     * #### [단축키](https://learn.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022)
-        * 단축키 안 먹힐 때 초기화: *Tools > Options > Reset > 예(Y) > OK*
+        * 단축키 안 먹힐 때 초기화: *Tools > Options > Environment > Keyboard > Reset > 예(Y) > OK*
 
     * #### Markdown
         * VS Code와는 다르게 따로 Extension 설치해줘야 함
