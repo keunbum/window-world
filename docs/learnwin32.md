@@ -73,10 +73,10 @@
 윈도우는 객체이다. (내부적으로 코드와 데이터를 가지고 있겠지만 C++ 클래스가 아니다.)
 프로그램은 *handle*이라 불리는 값을 통해 윈도우를 참조한다. **handle**은 불투명한(?) 타입이라고 한다.
 분명하게 인지해야할 점은 이는 단순히 운영체제가 객체를 식별하기 위해 사용하는 숫자에 불과하다는 것.
-운영체제는 생성된 모든 윈도우를 참조하는 테이블을 가지고 있다. 이 테이블에서 윈도우를 참조하기 위해 *handle*을 사용한다.
+운영체제는 생성된 모든 윈도우를 참조하는 테이블을 가지고 있다. 이 테이블에서 윈도우를 참조하기 위해 **handle**을 사용한다.
 (내부적으로 정확히 어떻게 동작하는지는 아직은 굳이 알 필요 없을듯..)
-**HWND**가 이 *handle*의 타입이며("에이치-윈도우"라 발음하는듯?)
-이 *handle*을 생성하기 위해 [CreateWindow](https://learn.microsoft.com/en-us/windows/win32/directshow/cbasewindow-docreatewindow)나 [CreateWindowEx](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowexa)를 호출한다.
+**HWND**가 이 **handle**의 타입이며("에이치-윈도우"라 발음하는듯?)
+이 **handle**을 생성하기 위해 [CreateWindow](https://learn.microsoft.com/en-us/windows/win32/directshow/cbasewindow-docreatewindow)나 [CreateWindowEx](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowexa)를 호출한다.
 
 **Window**를 다루는 함수를 호출한다면 **HWND** 값을 인자로 넘겨주면 된다.
 
