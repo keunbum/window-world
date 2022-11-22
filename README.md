@@ -2,6 +2,8 @@
 
 ## 개요
 
+Unreal Engine 프로그래밍을 하기에 앞서 DirectX 프로그래밍을,
+
 DirectX 프로그래밍을 하기에 앞서 Win32 프로그래밍 기초를 다지려고 한다.
 
 유용한 링크 위주로 올리되, 실습 코드나 내 것으로 정리한 내용도 같이 올리면 좋을 듯.
@@ -30,4 +32,4 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
 - [ ] [Win32 프로그래밍 기초](https://learn.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows)
 - [ ] [DirectX 게임 개발 기초](https://devblogs.microsoft.com/cppblog/directx-game-development-with-c-in-visual-studio/)
 - [ ] [POCU C++ 코딩 표준](https://docs.popekim.com/ko/coding-standards/pocu-cpp)
-- [ ] [C++ Core Guidelines - NL.5: Avoid encoding type information in names](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#nl5-avoid-encoding-type-information-in-names)
+- [ ] [C++ Core Guidelines - NL.5: Avoid encoding type information in names](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#nl5-avoid-encoding-type-information-in-names) (스크롤 압박 주의)
