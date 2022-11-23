@@ -1,4 +1,4 @@
-﻿# Learn Win32
+﻿# Intro to Win32 programming in C++
 
 영어로 쓰자니 본문을 그대로 옮길 것 같고, 한글로 적자니 어색하고.. ㅠㅠ
 
@@ -14,7 +14,10 @@
 	* ### [Window Handles](#window-handles-1)
 	* ### [Screen and Window Coordinates](#screen-and-window-coordinates-1)
 
-* ## [Reference](#reference)
+* ## [WinMain: The Application Entry Point](#winmain--the-application-entry-point-1)
+
+
+* ## [Reference](#reference-1)
 
 ---
 
@@ -22,7 +25,7 @@
 
 ## What Is a Window?
 
-운영체제 이름에서 알 수 있듯이 Windows에 있어 Window는 중요하다.
+운영체제 이름에서 알 수 있듯 ***Windows***에 있어 Window는 중요하다.
 
 ![Windows_Example](https://learn.microsoft.com/en-us/windows/win32/learnwin32/images/window01.png)
 
@@ -78,7 +81,7 @@
 **HWND**가 이 **handle**의 타입이며("에이치-윈도우"라 발음하는듯?)
 이 **handle**을 생성하기 위해 [CreateWindow](https://learn.microsoft.com/en-us/windows/win32/directshow/cbasewindow-docreatewindow)나 [CreateWindowEx](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowexa)를 호출한다.
 
-**Window**를 다루는 함수를 호출한다면 **HWND** 값을 인자로 넘겨주면 된다.
+**윈도우**를 다루는 함수를 호출한다면 **HWND** 값을 인자로 넘겨주면 된다.
 
 ```c++
 BOOL MoveWindow(HWND hWnd, int X, int Y, int nWidth, int nHeight, BOOL bRepaint);
@@ -87,8 +90,6 @@ BOOL MoveWindow(HWND hWnd, int X, int Y, int nWidth, int nHeight, BOOL bRepaint)
 파라미터에서 **HWND**가 포인터로 선언되지 않았음에 유의하자. 
 
 
----
-
 ## Screen and Window Coordinates
 
 
@@ -96,6 +97,9 @@ BOOL MoveWindow(HWND hWnd, int X, int Y, int nWidth, int nHeight, BOOL bRepaint)
 
 ![Coordinates](https://learn.microsoft.com/en-us/windows/win32/learnwin32/images/coordinates01.png)
 
+
+
+# WinMain: The Application Entry Point
 
 ---
 
