@@ -17,7 +17,7 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
 * 
     * #### [Visual Studio](#visual-studio-1)
 
-* ### [읽어 봐야 할 문서들](#읽어-봐야-할-문서들-1)
+* ### [Documents To Read](#documents-to-read-1)
 
 ---
 
@@ -36,9 +36,10 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
 ---
 
 
-## 읽어 봐야 할 문서들
+## Documents To Read
 
 - [ ] [인코딩 설정](https://learn.microsoft.com/en-us/visualstudio/ide/how-to-save-and-open-files-with-encoding?view=vs-2022)
+- [ ] [C++/WinRT](https://learn.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)
 - [ ] [Windwos UWP Game programming](https://learn.microsoft.com/en-us/windows/uwp/gaming/getting-started)
 - [ ] [Win32 프로그래밍 기초](https://learn.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows)
 - [ ] [DirectX 게임 개발 기초](https://learn.microsoft.com/en-us/windows/uwp/gaming/tutorial--create-your-first-uwp-directx-game)
