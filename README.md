@@ -39,6 +39,7 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
 ## Documents To Read
 
 - [ ] [인코딩 설정](https://learn.microsoft.com/en-us/visualstudio/ide/how-to-save-and-open-files-with-encoding?view=vs-2022)
+- [ ] [DirectX 전제 조건](https://learn.microsoft.com/en-us/windows/win32/direct3dgetstarted/pre-requisites-for-developing-a-tailored-c---with-directx-app)
 - [ ] [DirectX 3D 11](https://learn.microsoft.com/en-us/windows/win32/directx)
 - [ ] [C++/WinRT](https://learn.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)
 - [ ] [Windwos UWP Game programming](https://learn.microsoft.com/en-us/windows/uwp/gaming/getting-started)
