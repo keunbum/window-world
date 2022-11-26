@@ -775,3 +775,7 @@ $RECYCLE.BIN/
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,c++,windows,unrealengine,unity,dotnetcore,csharp
+
+
+### For My Own ###
+*.zip
