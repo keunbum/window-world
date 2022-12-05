@@ -31,6 +31,8 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
     * #### Markdown
         * VS Code와는 다르게 따로 Extension 설치해줘야 함
         * *Extensions > Manage Extentions > 'Markdown Editor v2' 설치*
+    * #### 자동 정렬
+        * Ctrl + (K, D)
 
 
 ---
