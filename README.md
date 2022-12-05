@@ -14,8 +14,9 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
 ## Index
 
 * ### [Tips](#tips-1)
-* 
+
     * #### [Visual Studio](#visual-studio-1)
+    * #### [Cmd](#cmd-1)
 
 * ### [Documents To Read](#documents-to-read-1)
 
@@ -24,7 +25,7 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
 ## Tips
 
 * ### Visual Studio
-* 
+
     * #### [단축키](https://learn.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022)
         * 단축키 안 먹힐 때 초기화: *Tools > Options > Environment > Keyboard > Reset > 예(Y) > OK*
 
@@ -34,6 +35,11 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
     * #### 자동 정렬
         * Ctrl + (K, D)
 
+* ### Cmd
+    * #### Background exec
+        ```cmd
+        > start .\main.exe
+        ```
 
 ---
 
