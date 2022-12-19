@@ -26,7 +26,8 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
 
 * ### Visual Studio
 
-    * #### [단축키](https://learn.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022)
+    * #### 단축키
+        [ms-official](https://learn.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022)
         * 단축키 안 먹힐 때 초기화: *Tools > Options > Environment > Keyboard > Reset > 예(Y) > OK*
 
     * #### Markdown
@@ -39,6 +40,10 @@ Visual Studio 각종 단축키나 설정팁 등 자잘한 내용도 잘 기록�
     * #### Background exec
         ```cmd
         > start .\main.exe
+        ```
+    * #### Encoding Setting
+        ```cmd
+        > Get-Content main.cpp | Set-Content -Encoding utf8 main.cpp
         ```
 
 ---
